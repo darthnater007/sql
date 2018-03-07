@@ -9,7 +9,7 @@ CREATE TABLE Customer
     city 	varchar(50)		not null,
     state 	varchar(2)		not null,
     sales 	decimal(16,2)	not null,
-    active 	bit				not null
+    active 	bit(1)			not null
 );
 
 Insert Customer (Name, City, State, Sales, Active) Values ('Acme,

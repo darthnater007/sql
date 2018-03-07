@@ -1,2 +1,2 @@
 # sql
-A simple test of the SQL language in my MAX Technical Training Java Dev class, using a product table from a Murach's book.
+This repo will hold .sql files from my Java Dev Class at MAX TEchnical Training Cincy Code IT.

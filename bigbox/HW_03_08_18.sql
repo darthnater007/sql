@@ -3,7 +3,7 @@
 
  SELECT concat('$',format(sum(storesales.Sales),2)) as 'Cincinnati Division Office Store Sales'
 from division, store, storesales
-where storeID= store.id
+where storeID = store.id
 and store.divisionid = division.id
 and division.id=1; 
 

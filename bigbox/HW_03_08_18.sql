@@ -7,6 +7,14 @@ where storeID = store.id
 and store.divisionid = division.id
 and division.id=1; 
 
+-- Same problem using INNER JOIN
+
+SELECT concat('$', format(sum(storesales.Sales),2))
+from storesales
+inner join store on storeid = store.id
+inner join division on store.divisionid = division.id
+where division.id=1;
+
 -- 2)  Store sales summary for all divisions...  
 -- 2 rows with the sales summed for each division.
 

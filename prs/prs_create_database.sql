@@ -3,7 +3,7 @@ CREATE DATABASE prs;
 USE prs;
 
 -- table definition
-CREATE TABLE User
+CREATE TABLE User 
 (
 ID 				INT 				PRIMARY KEY 		AUTO_INCREMENT,
 UserName 		VARCHAR(20) 															NOT NULL,
